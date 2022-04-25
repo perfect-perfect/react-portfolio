@@ -195,6 +195,11 @@ textarea {
   margin-left: var(--spacing-two);
 }
 
+.mx-5 {
+	margin-right: var(--spacing-five);
+	margin-left: var(--spacing-five);
+}
+
 .my-1 {
   margin-top: var(--spacing-one);
   margin-bottom: var(--spacing-one);
