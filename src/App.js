@@ -6,6 +6,10 @@ import Portfolio from './components/Portfolio';
 import About from './components/About'
 
 function App() {
+
+	const [aboutMeSelected, setAboutMeSelected] = useState(true)
+	const [portfolioSelected, setPortfolioSelected] = useState(false)
+
 	const [categories] = useState([
         {
             name: "portfolio",
@@ -22,10 +26,19 @@ function App() {
 			<Header
 				categories={categories}
 				setCurrentCategory={setCurrentCategory}
+				aboutMeSelected={aboutMeSelected}
+				setAboutMeSelected={setAboutMeSelected}
+				portfolioSelected={portfolioSelected}
+				setPortfolioSelected={setPortfolioSelected}
 			></Header>
 			<main>
-				<Portfolio currentCategory={currentCategory}></Portfolio>
-				<About></About>
+				{portfolioSelected && 
+					<Portfolio currentCategory={currentCategory}></Portfolio>
+				}
+				{/* <Portfolio currentCategory={currentCategory}></Portfolio> */}
+				{aboutMeSelected &&
+					<About></About>
+				}
 
 			</main>
 		</div>
