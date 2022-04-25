@@ -1,30 +1,55 @@
 import React from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+// import { capitalizeFirstLetter } from '../../utils/helpers';
 
 function Nav(props) {
 
     const {
-        categories = [],
+        // categories = [],
         // setCurrentCategory
-        aboutMeSelected,
+
+        // aboutMeSelected,
         setAboutMeSelected,
-        portfolioSelected,
-        setPortfolioSelected
+
+        // portfolioSelected,
+        setPortfolioSelected,
+
+        // resumeSelected,
+        setResumeSelected,
+
+        setContactSelected
     } = props
 
     const aboutMeSelection = () => {
         setAboutMeSelected(true);
         setPortfolioSelected(false);
+        setResumeSelected(false);
+        setContactSelected(false);
     }
 
     const portfolioSelection = () => {
         setAboutMeSelected(false);
         setPortfolioSelected(true);
+        setResumeSelected(false);
+        setContactSelected(false);
     }
 
-    function categorySelected(name) {
-        console.log(`${name} clicked`)
+    const resumeSelection = () => {
+        setAboutMeSelected(false);
+        setPortfolioSelected(false);
+        setResumeSelected(true);
+        setContactSelected(false);
     }
+
+    const contactSelection = () => {
+        setAboutMeSelected(false);
+        setPortfolioSelected(false);
+        setResumeSelected(false);
+        setContactSelected(true);
+    }
+
+    // function categorySelected(name) {
+    //     console.log(`${name} clicked`)
+    // }
 
     return(
         
@@ -41,7 +66,14 @@ function Nav(props) {
                     </span>
                 </li>
                 <li className="mx-2">
-                    <span>Contact</span>
+                    <span onClick={resumeSelection}>
+                        Resume
+                    </span>
+                </li>
+                <li className="mx-2">
+                    <span onClick={contactSelection}>
+                        Contact
+                    </span>
                 </li>
                 {/* {categories.map((category) => (
                     <li className="mx-1" key={category.name}>
