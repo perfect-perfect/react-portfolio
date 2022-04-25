@@ -4,8 +4,6 @@ import React from 'react';
 function Nav(props) {
 
     const {
-        // categories = [],
-        // setCurrentCategory
 
         aboutMeSelected,
         setAboutMeSelected,

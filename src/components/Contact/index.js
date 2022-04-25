@@ -34,9 +34,6 @@ function Contact() {
 
         // so that the state only updates if the form data has passed the quality tests
         if (!errorMessage) {
-            // 'name' property of 'target' actually refers to the 'name' attribute of the form element
-            //  - this attribute value mathches the property names of 'formState' (name, email, message)
-            //      - and allows us the '[]' to create dynamic property names
             setFormState({...formState, [e.target.name]: e.target.value })
         }
 

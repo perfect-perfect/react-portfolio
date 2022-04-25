@@ -42,11 +42,9 @@ function Project() {
                     <section className="mx-5 my-5 bottom-border">
                         <h1>{image.name}</h1>
                         <img
-                            // src={require(`../../assets/portfolio/${i}.png`)}
                             src={require(`../../assets/portfolio/${i}.png`)}
                             alt={image.name}
                             className='img-thumbnail mx-1'
-                            // onClick={() =>}
                             key={image.name}
                         /> 
                         <section className="flex-row mx-1">

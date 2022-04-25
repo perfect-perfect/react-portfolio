@@ -1,18 +1,16 @@
 import React from 'react';
 import Project from '../Project'
-import { capitalizeFirstLetter } from '../../utils/helpers';
 
-function Portfolio (props) {
+function Portfolio () {
 
-    const { currentCategory } = props;
 
-return (
-    <section>
-        <h1>{capitalizeFirstLetter(currentCategory.name)} </h1>
-        <Project></Project>
+    return (
+        <section>
+            <h1>Portfolio</h1>
+            <Project></Project>
 
-    </section>
-)
+        </section>
+    )
 
 }
 
