@@ -21,8 +21,6 @@ function Contact() {
             }
         }
         else {
-            // we're checking the message and name form element values.
-            // checks whether the values of these elements are blank
             if (!e.target.value.length) {
 
                 setErrorMessage(`${e.target.name} is required.`);
@@ -42,15 +40,13 @@ function Contact() {
             setFormState({...formState, [e.target.name]: e.target.value })
         }
 
-        console.log('errorMessage', errorMessage);
     }
 
     function handleSubmit(e) {
         e.preventDefault();
         console.log(formState);
+        
     }
-
-    console.log(formState);
 
     return (
         <section>

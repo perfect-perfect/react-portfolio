@@ -7,15 +7,16 @@ function Nav(props) {
         // categories = [],
         // setCurrentCategory
 
-        // aboutMeSelected,
+        aboutMeSelected,
         setAboutMeSelected,
 
-        // portfolioSelected,
+        portfolioSelected,
         setPortfolioSelected,
 
-        // resumeSelected,
+        resumeSelected,
         setResumeSelected,
 
+        contactSelected,
         setContactSelected
     } = props
 
@@ -47,41 +48,31 @@ function Nav(props) {
         setContactSelected(true);
     }
 
-    // function categorySelected(name) {
-    //     console.log(`${name} clicked`)
-    // }
 
     return(
         
         <nav className="flex-row px-1">
-            <ul className="flex-row">
-                <li className="mx-2">
+            <ul className="flex-row space-between">
+                <li className={`mx-2 ${aboutMeSelected && 'navActive'}`}>
                     <span onClick={aboutMeSelection}>
                         About Me
                     </span>
                 </li>
-                <li className="mx-2">
+                <li className={`mx-2 ${portfolioSelected && 'navActive'}`}>
                     <span onClick={portfolioSelection}>
                         Portfolio
                     </span>
                 </li>
-                <li className="mx-2">
+                <li className={`mx-2 ${resumeSelected && 'navActive'}`}>
                     <span onClick={resumeSelection}>
                         Resume
                     </span>
                 </li>
-                <li className="mx-2">
+                <li className={`mx-2 ${contactSelected && 'navActive'}`}>
                     <span onClick={contactSelection}>
                         Contact
                     </span>
                 </li>
-                {/* {categories.map((category) => (
-                    <li className="mx-1" key={category.name}>
-                        <span onClick={() => categorySelected(category.name)}>
-                            {capitalizeFirstLetter(category.name)}
-                        </span>
-                    </li>
-                ))} */}
             </ul>
         </nav>
 

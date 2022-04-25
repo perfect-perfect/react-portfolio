@@ -21,12 +21,13 @@ function Header(props) {
     } = props
 
     return (
-        <header className='flex-row px-1'>
-            <h2>
-                <a href="/">
-                    Gilberto Covarrubias Merino
-                </a>
-            </h2>
+        <header className='flex-row space-between'>
+            <h1>
+       
+                Gilberto Covarrubias Merino
+             
+    
+            </h1>
             <Nav
                 categories={categories}
                 setCurrentCategory={setCurrentCategory}

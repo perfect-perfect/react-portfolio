@@ -39,7 +39,7 @@ function Project() {
         <div>
             <div >
                 {projects.map((image, i) => (
-                    <section className="mx-5 my-5">
+                    <section className="mx-5 my-5 bottom-border">
                         <h1>{image.name}</h1>
                         <img
                             // src={require(`../../assets/portfolio/${i}.png`)}
@@ -49,10 +49,10 @@ function Project() {
                             // onClick={() =>}
                             key={image.name}
                         /> 
-                        <section className="flex-row mx-5">
-                            <a href={image.deployedUrl}>Deployed Application</a>
+                        <section className="flex-row mx-1">
+                            <a href={image.deployedUrl} target="blank">Deployed Application</a>
                             |
-                            <a href={image.githubUrl}>GitHub Repo</a>
+                            <a href={image.githubUrl} target="blank">GitHub Repo</a>
                         </section>
                     </section>
                 ))}
