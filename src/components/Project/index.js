@@ -4,6 +4,11 @@ function Project() {
 
     const [projects] = useState([
         {
+            name: 'Curb Alert',
+            deployedUrl: 'https://powerful-basin-06230.herokuapp.com/',
+            githubUrl: ''
+        },
+        {
             name: 'Budget Tracker',
             deployedUrl: 'https://warm-oasis-55894.herokuapp.com/',
             githubUrl: 'https://github.com/perfect-perfect/budget-tracker'
@@ -27,11 +32,6 @@ function Project() {
             name: 'Password Generator',
             deployedUrl: 'https://perfect-perfect.github.io/password-generator/',
             githubUrl: 'https://github.com/perfect-perfect/password-generator'
-        },
-        {
-            name: 'HTML Portfolio',
-            deployedUrl: 'https://perfect-perfect.github.io/portfolio/',
-            githubUrl: 'https://github.com/perfect-perfect/portfolio'
         }
     ])
 
