@@ -38,19 +38,23 @@ function Project() {
     return (
         <div>
             <div >
-                {projects.map((image, i) => (
-                    <section className="mx-5 my-5 bottom-border">
-                        <h1>{image.name}</h1>
+                {projects.map((project, i) => (
+                    <section className="project-item">
+                        <div className="project-info">
+                            <h2 className="project-header">{project.name}</h2>
+                            <p className="project-ddescription">{project.description}</p>
+                        </div>
+                        
                         <img
                             src={require(`../../assets/portfolio/${i}.png`)}
-                            alt={image.name}
+                            alt={project.name}
                             className='img-thumbnail mx-1'
-                            key={image.name}
+                            key={project.name}
                         /> 
                         <section className="flex-row mx-1">
-                            <a href={image.deployedUrl} target="blank">Deployed Application</a>
+                            <a href={project.deployedUrl} target="blank">Deployed Application</a>
                             |
-                            <a href={image.githubUrl} target="blank">GitHub Repo</a>
+                            <a href={project.githubUrl} target="blank">GitHub Repo</a>
                         </section>
                     </section>
                 ))}

@@ -1,6 +1,6 @@
 import React from 'react';
 import Nav from '../Nav';
-
+import portfolioLogo from '../../assets/images/portfolio-logo.png'
 function Header(props) {
 
     const {
@@ -21,13 +21,20 @@ function Header(props) {
     } = props
 
     return (
-        <header className='flex-row space-between'>
-            <h1>
-       
-                Gilberto Covarrubias Merino
-             
-    
-            </h1>
+        <header>
+            <div className="logo-name">
+                <div>
+                    <img className='portfolio-logo' src={portfolioLogo} alt="logo"></img>
+                </div>
+                <div>
+                    <h1 className='header-name'>
+            
+                        Gilberto Jesus Covarrubias Merino
+                    
+            
+                    </h1>
+                </div>
+            </div>
             <Nav
                 categories={categories}
                 setCurrentCategory={setCurrentCategory}

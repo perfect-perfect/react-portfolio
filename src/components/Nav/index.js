@@ -49,8 +49,8 @@ function Nav(props) {
 
     return(
         
-        <nav className="flex-row px-1">
-            <ul className="flex-row space-between">
+        <nav className="header-nav px-1">
+            <ul className="nav-list">
                 <li className={`mx-2 ${aboutMeSelected && 'navActive'}`}>
                     <span onClick={aboutMeSelection}>
                         About Me
