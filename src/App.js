@@ -30,11 +30,11 @@ function App() {
 				setContactSelected={setContactSelected}
 			></Header>
 			<main>
-				{portfolioSelected && 
-					<Portfolio></Portfolio>
-				}
 				{aboutMeSelected &&
 					<About></About>
+				}
+				{portfolioSelected && 
+					<Portfolio></Portfolio>
 				}
 				{resumeSelected &&
 					<Resume></Resume>

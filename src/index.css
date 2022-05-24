@@ -95,7 +95,7 @@ p {
 }
 
 a {
-  color: var(--tertiary);
+  color: #a687c2;
   text-decoration: none;
   font-weight: bold;
 }
@@ -260,14 +260,46 @@ header a {
 
 /* BEGIN PORTFOLIO STYLING */
 .project-item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  /* max-width: 85%; */
   margin-right: var(--spacing-five);
 	margin-left: var(--spacing-five);
   margin-top: var(--spacing-five);
   margin-bottom: var(--spacing-five);
 }
 
+.project-info {
+  flex: 1 50%;
+  justify-content: center;
+}
+
+.project-image {
+  flex: 1 50%;
+  justify-content: center;
+}
+
+.links {
+  display: flex;
+  flex: 1 100%;
+  justify-content: center;
+}
+
+/* BEGIN FOOTER STYLING */
+
 .footer {
-  margin: 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20%;
+  margin-bottom: 0%;
+}
+
+.icon {
+  width: 32px;
+  height: 32px;
+  margin: 10px;
 }
 
 button {
@@ -291,9 +323,6 @@ button[disabled] {
   opacity: .8;
 }
 
-img {
-  /* max-width: 100%; */
-}
 
 span[role="img"] {
   cursor: default;
@@ -417,7 +446,7 @@ textarea {
 
 
 .img-thumbnail {
-  width: auto;
+  width: 100%;
   height: 300px;
   cursor: pointer;
 }
@@ -462,7 +491,6 @@ button {
 
 a {
 	border-radius: 5px;
-	color: var(--primary);
 	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;
