@@ -37,7 +37,7 @@ body {
   font-weight: 100;
   line-height: 1;
   /* font-size: 18px; */
-  letter-spacing: .1em;
+  /* letter-spacing: .1em; */
   background: var(--primary);
   color: var(--secondary);
   font-family: Helvetica, sans-serif;
@@ -91,13 +91,15 @@ h6 {
 
 p {
   font-size: 1rem;
+  font-weight: 100;
+  line-height: 1;
   margin: 20px 0px;
 }
 
 a {
-  color: #a687c2;
-  text-decoration: none;
+  color:#a687c2;
   font-weight: bold;
+  text-decoration: none;
 }
 
 p {
@@ -106,6 +108,7 @@ p {
 
 a:hover {
   text-decoration: underline;
+  color: #FFF;
 }
 
 /* HEADER STYLE */
@@ -129,6 +132,9 @@ header {
   align-items: center;
 }
 
+.header-name { 
+  margin-left: 10px;
+}
 .portfolio-logo {
   /* float: left; */
   /* margin-left: auto;  */
@@ -192,7 +198,7 @@ header {
 }
 
 .navActive {
-  color: var(--secondary);
+  color: #a687c2;
 }
 
 header a {
@@ -286,6 +292,10 @@ header a {
   justify-content: center;
 }
 
+.link {
+  margin: 10px;
+}
+
 /* BEGIN FOOTER STYLING */
 
 .footer {
@@ -294,6 +304,7 @@ header a {
   justify-content: center;
   margin-top: 20%;
   margin-bottom: 0%;
+  color: #525e65;
 }
 
 .icon {

@@ -27,12 +27,12 @@ function Header(props) {
                     <img className='portfolio-logo' src={portfolioLogo} alt="logo"></img>
                 </div>
                 <div>
-                    <h1 className='header-name'>
+                    <p className='header-name'>
             
                         Gilberto Jesus Covarrubias Merino
                     
             
-                    </h1>
+                    </p>
                 </div>
             </div>
             <Nav
