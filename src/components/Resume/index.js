@@ -17,7 +17,6 @@ function Resume () {
                 <li>Markdown</li>
                 <li>Git</li>
                 <li>Github Repo</li>
-                JavaScript, React, SQL, MySQL, MongoDB, Mongoose, GraphQL, Node, Express, Handlebars, Multer, Cloudinary, Service-Worker, HTML, CSS
             </ul>
         </section>
     )
