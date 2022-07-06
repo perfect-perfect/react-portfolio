@@ -5,7 +5,7 @@ function Resume () {
     return(
         <section>
             <h1>
-                <a href='https://docs.google.com/document/d/e/2PACX-1vS1u6mublUg3TySNdKMMT_pDIpKXNd59msK77GKqwuLOD-G0Bs8zwpQaZ4tEnQVIP5DJRbmZD819X3p/pub'>View My Resume</a>
+                <a href='https://drive.google.com/file/d/1Ui2zHmFY9ewcYF-qDkc3-c1HsZc02kwh/view?usp=sharing'>View My Resume</a>
             </h1>
             <h1>Skills</h1>
             <ul>
