@@ -15,7 +15,7 @@ To use website go to link provided below. To experience functionality
 
 ## Link to website/environment
 ---
-[Portfolio]https://perfect-perfect.github.io/react-portfolio/)
+[Portfolio](https://perfect-perfect.github.io/react-portfolio/)
 
 ## License
 ---
