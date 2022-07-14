@@ -298,6 +298,12 @@ header a {
   margin: 10px;
 }
 
+/* BEGIN CONTACT PAGE STYLING */
+.contact-email h1 {
+  margin-bottom: 48px;
+}
+/* END CONTACT PAGE STYLING */
+
 /* BEGIN FOOTER STYLING */
 
 .footer {

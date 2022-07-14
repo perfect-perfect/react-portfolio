@@ -3,7 +3,7 @@
 
 ## Description
 ---
-This is my professional React portfolio. This will be a resource for myself and potential employers. Employers can access my previous works and determine whether I am the proper fit for the position they are looking to fill.
+This is my professional programming portfolio. Employers can use this website tp access my previous work.
 
 ## Features
 ---
