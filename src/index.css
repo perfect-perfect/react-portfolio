@@ -282,7 +282,9 @@ header a {
 }
 
 .project-image {
+  display: flex;
   flex: 1 50%;
+  object-fit: fill;
   justify-content: center;
 }
 
@@ -457,9 +459,11 @@ textarea {
 
 
 .img-thumbnail {
-  width: 100%;
+  width: 547px;
   height: 300px;
   cursor: pointer;
+  justify-content: center;
+  align-items: center;
 }
 
 .modalBackdrop {
