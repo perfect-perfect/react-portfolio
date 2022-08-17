@@ -11,7 +11,16 @@ function About() {
 
                     <h2 className="about-header">ABOUT ME</h2>
 
-                    <p className="about-info">Full-Stack Web Developer, self-starter, and problem-solver with a demonstrable history in research based solutions. I earned my Full-Stack Web Development certificate from Case Western Reserve University. I take pride in my ability to analyze and solve problems, both alone and with others--through teamwork. My curiosity, flexibility, patience and adaptiveness have all allowed me to develop into a skilled web developer and excellent team member.</p> 
+                    <p className="about-info">
+                        Full stack web developer, motivated self-starter, adaptive collaborator and curious
+                        problem-solver with an extensive history in independent research and large team coordination.
+                        Graduate of Case Western Reserve University’s Full-Stack Web Development program. A
+                        passionate and skilled developer with an exceptional ability to analyze and solve problems, both
+                        independently and with others– with over 4+ years of experience in leading large teams and
+                        delivering results in a versatile and dynamic environment under strict timelines. An ambitious
+                        and inspired programmer who is eager to contribute their skills and abilities to the
+                        implementation of new technologies.
+                    </p> 
 
                 </div>
 

@@ -136,46 +136,21 @@ header {
   margin-left: 10px;
 }
 .portfolio-logo {
-  /* float: left; */
-  /* margin-left: auto;  */
   width:75px;
   height: 75px;
-  /* position: absolute;
-  top: -18px;
-  left: 10px;
-  display: inline-block; */
-  /* text-align: left; */
-  /* margin: 20px 20px 0 10px;
-  transition: margin 1s; */
-  /* height: auto;  */
 }
 
 .header-name {
   padding: 0px 5px;
-  /* position: absolute;
-  top: 0px;
-  left: 50px;
-  display: inline-block;
-  text-align: right; */
-  /* margin: 26px 1px 0 66px; */
-  /* transition: margin 1s */
 }
 
 .header-nav {
-  /* position: absolute; */
-  /* align-items: right; */
-  /* top: 0;
-  right: 0; */
-  /* display: inline-block; */
-  /* text-align: right; */
-  /* margin: 10px 10px 0 0; */
   transition: margin 1s
 }
 
 .nav-list {
   display: flex;
   flex-wrap: wrap;
-  /* justify-content: space-between; */
   justify-content: center;
   align-items: center;
 
@@ -232,7 +207,7 @@ header a {
   border-radius: 10% 100%;
   padding: 20%;
   z-index: -1;
-  width: 70%;
+  width: 80%;
   margin-top: 15%;
 
 }
@@ -303,6 +278,24 @@ header a {
   margin-bottom: 48px;
 }
 /* END CONTACT PAGE STYLING */
+
+/* BEGIN RESUME PAGE STYLING */
+.resume 
+
+.resume-header {
+  font-size: 2rem;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.skill-list {
+  display: flex;
+}
+
+.skill-list li {
+  flex-basis: 100%;
+}
+/* END RESUME PAGE STYLING */
 
 /* BEGIN FOOTER STYLING */
 

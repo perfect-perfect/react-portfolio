@@ -1,23 +1,23 @@
 import React from 'react';
 
 
-function Resume () {
-    return(
-        <section>
-            <h1>
-                <a href='https://drive.google.com/file/d/1Ui2zHmFY9ewcYF-qDkc3-c1HsZc02kwh/view?usp=sharing'>View My Resume</a>
+function Resume() {
+    return (
+        <section className='resume'>
+            <h1 className='resume-header'>
+                <a href='https://drive.google.com/file/d/1mEYXszi4fU6PVAV-Ejjed9OcxsP_BFMH/view?usp=sharing'>Click Here to View My Resume</a>
             </h1>
-            <h1>Skills</h1>
-            <ul>
-                <li>JavaScript</li>
-                <li>React, Node.js, Express.js</li>
-                <li>SQL, MySQL, MongoDB, Mongoose, GraphQL</li>
-                <li>Multer, Cloudinary, Service-Worker</li>
-                <li>HTML, CSS, Handlebars</li>
-                <li>Markdown</li>
-                <li>Git</li>
-                <li>Github Repo</li>
-            </ul>
+            <div className='skill-div'>
+                <h1>Skills</h1>
+                <ul className='skill-list'>
+                    <li>JavaScript, HTML, CSS,</li>
+                    <li>React, Node.js, Express.js</li>
+                    <li>SQL, MySQL, MongoDB, Mongoose, GraphQL</li>
+                    <li>Multer, Cloudinary, Service-Worker</li>
+                    <li>Markdown, Git, Github Repo</li>
+                </ul>
+            </div>
+
         </section>
     )
 }
