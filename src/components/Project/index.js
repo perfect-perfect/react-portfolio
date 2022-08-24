@@ -19,7 +19,7 @@ function Project() {
         },
         {
             name: 'Budget Tracker',
-            description: 'An progressive web app to help users keep and maintain a budget.',
+            description: 'A progressive web app to help users keep and maintain a budget.',
             technology: "JavaScript, Mongoose, Node, Express, Service-Worker, HTML, CSS ",
             deployedUrl: 'https://warm-oasis-55894.herokuapp.com/',
             githubUrl: 'https://github.com/perfect-perfect/budget-tracker'
