@@ -269,7 +269,7 @@ header a {
   align-items: center;
   /* max-width: 100%; */
   width: 100%;
-  border-top: 1px solid #a687c2;
+  border-top: 0.14vh solid #a687c2;
   border-top-width: 1vh 100vw;
   padding: 30px 0px;
   margin-right: var(--spacing-five);
