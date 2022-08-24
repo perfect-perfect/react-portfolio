@@ -14,7 +14,7 @@ function About() {
                     <p className="about-info">
                         Full stack web developer, motivated self-starter, adaptive collaborator and curious
                         problem-solver with an extensive history in independent research and large team coordination.
-                        Graduate of Case Western Reserve University’s Full-Stack Web Development program. A
+                        Graduate of Case Western Reserve University’s Full-Stack Web Development Program. A
                         passionate and skilled developer with an exceptional ability to analyze and solve problems, both
                         independently and with others– with over 4+ years of experience in leading large teams and
                         delivering results in a versatile and dynamic environment under strict timelines. An ambitious

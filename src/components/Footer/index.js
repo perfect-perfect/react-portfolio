@@ -9,7 +9,7 @@ function Footer () {
             <a href='https://github.com/perfect-perfect' target='blank'><img src={githubIcon} className='icon' alt="github-icon" /> </a>
             <a href='https://www.linkedin.com/in/gilberto-covarrubias-merino-46aaa0223/'  target='blank'><img src={linkedInIcon} className='icon' alt="linkedIn-icon" /></a>
         </section>
-        <p>© 2022 Gilberto Jesus Covarrubias Merino</p>
+        <p className='footer-p'>© 2022 Gilberto Jesus Covarrubias Merino</p>
         </>
 
     )

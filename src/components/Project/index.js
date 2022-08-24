@@ -49,7 +49,7 @@ function Project() {
 
     return (
         <div>
-            <div >
+            <div className='project-wrapper' >
                 {projects.map((project, i) => (
                     <section className="project-item">
                         <div className="project-info">

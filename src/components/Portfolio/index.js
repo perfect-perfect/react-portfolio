@@ -6,7 +6,7 @@ function Portfolio () {
 
     return (
         <section>
-            <h2>Portfolio</h2>
+            <h2 className='portfolio-header'>Portfolio</h2>
             <Project></Project>
 
         </section>
